@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "project-lighting-status": {
+      "hosting": {
+        "Lighting": [
+          "project-lighting-status"
+        ]
+      }
+    }
+  }
+}
