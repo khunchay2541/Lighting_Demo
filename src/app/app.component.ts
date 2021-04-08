@@ -17,7 +17,7 @@ export class AppComponent {
 
   constructor(private db: AngularFireDatabase){
    // this.db.object('users/0').set({id : 1 ,name : ' max purl' , phone : ' 0897654321'})
-    this.getStarted()
+    //this.getStarted()
   }
 
   async getStarted(){

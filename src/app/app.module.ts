@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { HomepageComponent } from './homepage/homepage.component';
+
 
 //ติดตั้ง firebase
 import { AngularFireModule} from '@angular/fire';
@@ -11,12 +11,16 @@ import {environment } from '../environments/environment';
 
 import {AngularFireDatabaseModule} from '@angular/fire/database'
 
-import {FormsModule} from '@angular/forms'
+import {FormsModule} from '@angular/forms';
+import { HomeComponent } from './web/home/home.component';
+import { DashbordComponent } from './web/dashbord/dashbord.component'
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomepageComponent
+    HomeComponent,
+    DashbordComponent,
+    
   ],
   imports: [
     BrowserModule,
